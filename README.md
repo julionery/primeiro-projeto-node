@@ -1,16 +1,25 @@
 <h1 align="center">Primeiro Projeto Node</h1>
 
-<p align="center">Projeto do primeiro módulo do Bootcamp GoStack da <a href="https://rocketseat.com.br/" target="_blank">Rockeseat.</a></p>
+<p align="center">Projeto do segundo módulo do Bootcamp GoStack da <a href="https://rocketseat.com.br/" target="_blank">Rockeseat.</a></p>
+
+Projeto em Typescript abordando contúdos de padrão de códigos (EditorConfig, ESLint, Prettier), parâmetros nomeados,
+configurando o Visual Studio para debug em Node e ajustes para melhorar a produtividade.
+Conceitos de Arquitetura de Software, estruturando o código em models, repositories,
+
+- SoC: Separation of Concerns (Separação de Preocupações)
+- DTO: Data Transfer Object
 
 ### :rocket: Tecnologias
 - [NodeJS](https://nodejs.org/en/)
 - [Typescript](https://www.typescriptlang.org/)
 
 ### :computer: Bibliotecas e ferramentas:
-- [Express](https://expressjs.com/)
-- [EditorConfig](https://editorconfig.org/)
-- [ESLint](https://eslint.org/)
-- [Prettier](https://prettier.io/)
+- [Express](https://expressjs.com/) - Gerenciamento da API
+- [EditorConfig](https://editorconfig.org/) - Padrão de Código
+- [ESLint](https://eslint.org/) - Padrão de Código
+- [Prettier](https://prettier.io/) - Padrão de Código
+- [uuidv4](https://github.com/thenativeweb/uuidv4) - Gerador de ID
+- [date-fns](https://date-fns.org/) - Manipulação de data em Javascript
 
 ### :information_source: Como Usar
 
