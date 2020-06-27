@@ -4,10 +4,13 @@
 
 Projeto em Typescript abordando contúdos de padrão de códigos (EditorConfig, ESLint, Prettier), parâmetros nomeados,
 configurando o Visual Studio para debug em Node e ajustes para melhorar a produtividade.
-Conceitos de Arquitetura de Software, estruturando o código em models, repositories,
+Conceitos de Arquitetura de Software, estruturando o código em models, repositories, services.
 
-- SoC: Separation of Concerns (Separação de Preocupações)
-- DTO: Data Transfer Object
+### :star: Princípios abordados:
+- **SoC (Separation of Concerns)**: Esse princípio zela pela separação de responsabilidades de cada arquivo. Exemplo: as rotas não devem ser responsáveis por lidar com a persistência dos dados, isso fica por conta do Repository. Já o Repository não é responsável pela tratativa das regras de negócio, isso é responsabilidade dos Services;
+- **DRY (Don't Repeat Yourself)**: Esse princípio zela pelo maior reaproveitamento de código. Esse princípio não preza necessariamente pela não-repetição de código e sim regras de negócio. Exemplo: ao criar Services e Repositories, você possibilita a reutilização desses códigos no restante da aplicação;
+- **SRP (Single Responsability Principle)**: Esse princípio zela que uma classe deve possuir apenas uma responsabilidade. Exemplo: Ao criar um service chamado `createTransactionService`, devemos garantir que no seu único método (execute()) seu trabalho seja **apenas** a criação de uma transação;
+- **DIP (Dependency Inversion Principle)**: Esse princípio zela que uma entidade dependa apenas de abstrações, não de implementações. Exemplo: Ao atribuir ao Repository a comunicação com o Banco de dados, o Service precisa interagir apenas com essa abstração, sem precisar criar uma nova instância e realizar as ações diretamente;
 
 ### :rocket: Tecnologias
 - [NodeJS](https://nodejs.org/en/)
